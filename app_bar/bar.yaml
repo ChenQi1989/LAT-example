@@ -1,0 +1,9 @@
+name: appbar
+version: '0.1'
+release: r0
+summary: dummy example bar app
+license: MIT
+description: dummy example bar app
+
+files:
+- /usr/bin/bar (0755, root, root)

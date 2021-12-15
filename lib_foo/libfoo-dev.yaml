@@ -1,0 +1,10 @@
+name: libfoo-dev
+version: '0.1'
+release: r0
+summary: dummy example foo library (dev files)
+license: MIT
+description: dummy example foo library (dev files)
+
+files:
+- /usr/lib/libfoo.so
+- /usr/include/foo.h

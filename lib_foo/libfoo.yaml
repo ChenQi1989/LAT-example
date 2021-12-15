@@ -1,0 +1,9 @@
+name: libfoo
+version: '0.1'
+release: r0
+summary: dummy example foo library
+license: MIT
+description: dummy example foo library
+
+files:
+- /usr/lib/libfoo.so.0 (0644, root, root)
