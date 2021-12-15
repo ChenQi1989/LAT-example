@@ -2,7 +2,7 @@ CC ?= gcc
 CFLAGS ?= -Wall
 
 libfoo: foo.c
-	$(CC) $(CFLAGS) -fPIC -shared -o libfoo.so.0 foo.c
+	$(CC) $(CFLAGS) -fPIC -shared -Wl,-soname,libfoo.so.0 -o libfoo.so.0 foo.c
 
 install: libfoo
 	mkdir -p $(DESTDIR)/usr/lib
